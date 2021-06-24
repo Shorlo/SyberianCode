@@ -1,0 +1,9 @@
+Por razones de seguridad el archivo config.php del proyecto le faltan varias variables por definir.
+
+-$smtp_host = "smtp.ejemplo.com";			<---- Variable es el servidor smtp del correo que uses para que funcione el envio de correos.
+-$syberiancode_info_email = "correo@dominio.com"; 	<---- Variable que define la dirección de correo electronico utilizada.
+-$syberiancode_info_email_password = "contraseña";	<---- Variable que define la contraseña del correo electronico utilizado.
+-$smtp_port = 25; 					<---- Por defecto está puesto el puerto 25, pero puede ser cualquier otro que use su email.
+
+
+Han de definirse estas variables en el archivco config.php o la web no funcionará.
