@@ -28,7 +28,7 @@ $id_user = $_SESSION['id_user'];
     <body class="wallpaper02">
         <div class="container">
             <p class="login-register-text" style="margin-top:auto; margin-bottom: 13px;"><a href="logout.php">Cerrar sesión</a></p>
-            <p class="login-text" style="font-size: 2rem; font-weight: 300;" >Bienvido</p><br>
+            <p class="login-text" style="font-size: 2rem; font-weight: 300;" >Bienvenido</p><br>
                 <!-- Formulario -->
             <form action="quicktypificationtools.php" method="POST" class="login-email">
                 <div class="input-group">
