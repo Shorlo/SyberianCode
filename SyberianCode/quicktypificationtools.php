@@ -33,7 +33,7 @@ $username = $_SESSION['username'];
         <p class="login-register-text" style="margin-top:auto;"><a href="logout.php">Cerrar sesión</a></p>
         </header>
         <!-- Formulario -->
-        <form name="formulario"action="resultado.php" method="POST" class="form-welcome">
+        <form name="formulario"action="qttResultado.php" method="POST" class="form-welcome">
             <!-- Título -->
             <p class="login-text" style="font-size: 2rem; font-weight: 300;" >Quick Typification Tools</p>
             <?php echo "<p class='login-text' style='text-transform: capitalize; font-size:1.1rem; font-weight: 500;' >Usuario: " .$username. "</p>" ?>
